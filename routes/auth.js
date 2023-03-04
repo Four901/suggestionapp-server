@@ -18,7 +18,7 @@ const User=require('../models/User')
 const { body, validationResult } = require('express-validator');
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
-const JWT_KEY="ohknoprob"
+const JWT_KEY=process.env.jwt_key;
 const fetchUser=require('../middleware/fetchUser')
 
 
