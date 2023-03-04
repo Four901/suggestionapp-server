@@ -9,6 +9,7 @@
 
 
 const mongoose =require('mongoose')
+
 //const mongooseURI=process.env.DB_URI
 const mongooseURI="mongodb://localhost:27017/suggestionapp?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
 //adding inotebook in url to create a new db with the name of inotebook

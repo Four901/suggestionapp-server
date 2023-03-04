@@ -93,6 +93,7 @@ router.put('/updatetopic/:id',fetchUser,[
        
 
 
+            
      
 
        let topic=await Topic.findById(req.params.id)

@@ -10,6 +10,7 @@
 
 const connectToMongoose=require('./db')
 
+
 connectToMongoose();
 
 var cors = require('cors')//to make connection between....yes i know 
@@ -17,6 +18,7 @@ const express = require('express')
 
 const app = express()
 const port = 5000
+
 
 app.use(cors())
 app.use(express.json())
